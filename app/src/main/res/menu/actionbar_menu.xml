@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Upload"
+        android:id="@+id/nav_upload"
+        android:icon="@drawable/baseline_backup_24"
+        app:showAsAction="always"
+        />
+    <item android:title="Get Direction"
+        android:id="@+id/nav_get_direction"
+        android:icon="@drawable/baseline_assistant_direction_24"
+        app:showAsAction="always"
+        />
+
+    <item android:title="Setting"
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/baseline_badge_24"
+        app:showAsAction="always"
+        />
+</menu>
